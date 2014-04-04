@@ -1,0 +1,1075 @@
+TCordovaLib
+v6
+r1
+cCheck dependencies
+cCpHeader Classes/NSDictionary+Extensions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+cCpHeader Classes/CDVInvokedUrlCommand.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+cCpHeader Classes/NSData+Base64.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSData+Base64.h
+cCpHeader Classes/CDVPluginResult.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPluginResult.h
+cCpHeader Classes/CDVPlugin.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPlugin.h
+cCpHeader Classes/CDVDebug.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVDebug.h
+cCpHeader Classes/NSMutableArray+QueueAdditions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+cCpHeader Classes/CDVWhitelist.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWhitelist.h
+cCpHeader Classes/CDVURLProtocol.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+cCpHeader Classes/CDVViewController.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVViewController.h
+cCpHeader Classes/CDVCommandDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+cCpHeader Classes/CDV.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDV.h
+cCpHeader Classes/CDVAvailability.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVAvailability.h
+cCpHeader Classes/CDVLocalStorage.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+cCpHeader Classes/UIDevice+Extensions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+cCpHeader Classes/NSArray+Comparisons.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+cCpHeader Classes/CDVEcho.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVEcho.h
+cCpHeader Classes/CDVCommandQueue.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+cCpHeader Classes/CDVCommandDelegateImpl.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+cCpHeader Classes/CDVShared.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVShared.h
+cCpHeader Classes/CDVScreenOrientationDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+cCpHeader Classes/CDVConfigParser.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVConfigParser.h
+cCpHeader Classes/CDVJSON.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVJSON.h
+cCpHeader Classes/CDVWebViewDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+cCpHeader Classes/CDVUserAgentUtil.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+cCpHeader Classes/CDVTimer.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVTimer.h
+cProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLibtool /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a normal i386
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk
+c00000000528A0BF30000000000000176
+t1384778739
+s374
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/SDKSettings.plist
+c00000000525EBB4500000000000003B5
+t1381940037
+s949
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000528A0A2500000000000001A0
+t1384778277
+s416
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+c000000005276BE120000000000000516
+t1383513618
+s1302
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+c000000005276BE120000000000000C65
+t1383513618
+s3173
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+c000000005276BE1200000000000008BA
+t1383513618
+s2234
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+c000000005276BE120000000000000473
+t1383513618
+s1139
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+c000000005276BE12000000000000126E
+t1383513618
+s4718
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+c000000005276BE120000000000000501
+t1383513618
+s1281
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+c000000005276BE12000000000000152E
+t1383513618
+s5422
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+c000000005276BE1200000000000004CB
+t1383513618
+s1227
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+c000000005276BE120000000000000E0D
+t1383513618
+s3597
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+c000000005276BE120000000000000401
+t1383513618
+s1025
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.h
+c000000005276BE120000000000000342
+t1383513618
+s834
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m
+c000000005276BE1200000000000008DA
+t1383513618
+s2266
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+c000000005276BE1200000000000007E6
+t1383513618
+s2022
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+c000000005276BE120000000000000DDE
+t1383513618
+s3550
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+c000000005276BE1200000000000003DA
+t1383513618
+s986
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+c000000005276BE12000000000000098E
+t1383513618
+s2446
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+c000000005276BE1200000000000006CF
+t1383513618
+s1743
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+c000000005276BE120000000000004C6C
+t1383513618
+s19564
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+c000000005276BE120000000000000892
+t1383513618
+s2194
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+c000000005276BE1200000000000016AE
+t1383513618
+s5806
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+c000000005276BE120000000000000C13
+t1383513618
+s3091
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+c000000005276BE120000000000001B29
+t1383513618
+s6953
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+c000000005276BE120000000000000408
+t1383513618
+s1032
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+c000000005276BE1200000000000003E6
+t1383513618
+s998
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+c000000005276BE1200000000000006B6
+t1383513618
+s1718
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+c000000005276BE12000000000000038D
+t1383513618
+s909
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+c000000005276BE120000000000000AA2
+t1383513618
+s2722
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+c000000005276BE12000000000000041C
+t1383513618
+s1052
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+c000000005276BE120000000000002514
+t1383513618
+s9492
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+c000000005276BE120000000000000421
+t1383513618
+s1057
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+c000000005276BE1200000000000012A2
+t1383513618
+s4770
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+c000000005276BE120000000000000ACC
+t1383513618
+s2764
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+c000000005276BE120000000000008568
+t1383513618
+s34152
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+c000000005276BE1200000000000005A2
+t1383513618
+s1442
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+c000000005276BE1200000000000037C6
+t1383513618
+s14278
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+c000000005276BE1200000000000004B4
+t1383513618
+s1204
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+c000000005276BE120000000000002216
+t1383513618
+s8726
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+c000000005276BE120000000000000392
+t1383513618
+s914
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+c000000005276BE1200000000000004D8
+t1383513618
+s1240
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+c000000005276BE12000000000000037D
+t1383513618
+s893
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+c000000005276BE1200000000000022CC
+t1383513618
+s8908
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+c000000005276BE1200000000000005DA
+t1383513618
+s1498
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+c000000005276BE120000000000001059
+t1383513618
+s4185
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+c000000005276BE1200000000000003A0
+t1383513618
+s928
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+c000000005276BE120000000000000584
+t1383513618
+s1412
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+c000000005276BE120000000000000476
+t1383513618
+s1142
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+c000000005276BE120000000000000620
+t1383513618
+s1568
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+c000000005276BE120000000000000346
+t1383513618
+s838
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+t1391282609
+s63180
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+t1391282609
+s59904
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+t1391282609
+s27108
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
+t1391282609
+s48936
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+t1391282608
+s18752
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+t1391282609
+s10908
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+t1391282608
+s109568
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+t1391282608
+s59556
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+t1391282608
+s37268
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+t1391282609
+s9432
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+t1391282609
+s22980
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+t1391282608
+s71276
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+t1391282609
+s52768
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+t1391282610
+s165600
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+t1391282609
+s71348
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+t1391282608
+s31516
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList
+c000000005276BE1D0000000000000E38
+t1383513629
+s3640
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+t1391282609
+s7512
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+t1391282608
+s11176
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+t1391282608
+s17888
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+t1391282608
+s7024
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+t1391282609
+s9644
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDV.h
+t1383513629
+s1302
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVAvailability.h
+t1383513629
+s3173
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+t1383513629
+s2234
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+t1383513629
+s1139
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+t1383513629
+s1281
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVConfigParser.h
+t1383513629
+s1227
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVDebug.h
+t1383513629
+s1025
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVEcho.h
+t1383513629
+s834
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+t1383513629
+s2022
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVJSON.h
+t1383513629
+s986
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+t1383513629
+s1743
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPlugin.h
+t1383513629
+s2194
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPluginResult.h
+t1383513629
+s3091
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+t1383513629
+s1032
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVShared.h
+t1383513629
+s998
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVTimer.h
+t1383513629
+s909
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+t1383513629
+s1052
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+t1383513629
+s1057
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVViewController.h
+t1383513629
+s2764
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+t1383513629
+s1442
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWhitelist.h
+t1383513629
+s1204
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+t1383513629
+s914
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSData+Base64.h
+t1383513629
+s893
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+t1383513629
+s1498
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+t1383513629
+s928
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+t1383513629
+s1142
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a
+t1383520037
+s920864
+
+N/var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch
+t1391282607
+s3202412
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies967a1e2e819db841^cc463b2e819db841^---0#1#1#--18"Check dependencies36"3B370ACC-9070-4217-9A1F-B7B0EF25D52A-
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.128570
+e412975409.349365
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m216"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere90f2131819db841^b96f5931819db841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m0000000000000000^4233"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o Classes/CDVCommandDelegateImpl.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandDelegateImpl.o36"2404CD80-77D4-42C5-8F8A-5A7413DD6419-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.015371
+e412975409.204544
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerf4150431819db841^5aa13431819db841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m0000000000000000^4191"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o Classes/CDVCommandQueue.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVCommandQueue.o36"06E668D5-4280-47AE-A299-559D06DF9FC3-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.177676
+e412975409.251425
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerd5972d31819db841^cd5c4031819db841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m0000000000000000^4191"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o Classes/CDVConfigParser.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVConfigParser.o36"3D7D91BA-0911-469A-BE9E-37609789B6EB-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.959630
+e412975409.176238
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2ae1f530819db841^3f1f2d31819db841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m0000000000000000^4143"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o Classes/CDVEcho.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVEcho.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVEcho.o36"DBB07188-F8EE-432F-A7F4-756A1090AF15-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975407.934421
+e412975408.151625
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection111"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m212"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler465def2f819db841^67b72630819db841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m0000000000000000^4221"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o Classes/CDVInvokedUrlCommand.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVInvokedUrlCommand.o36"273AA7AF-B496-4C28-906D-A142B219BB26-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.205914
+e412975409.283653
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection98"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m186"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler12dc3431819db841^2aa84831819db841^---0#0#1#-19%DVTDocumentLocation2@106"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m0000000000000000^4143"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o Classes/CDVJSON.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVJSON.o36"769535F9-C5AB-4489-86E2-E0C6892A5677-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.262885
+e412975408.937463
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera9694330819db841^e8f5ef30819db841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m0000000000000000^4191"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o Classes/CDVLocalStorage.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVLocalStorage.o36"7C8F1B8E-4BE7-44D5-B73A-D572E645985B-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.152531
+e412975408.937064
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler92252730819db841^02d5ef30819db841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m0000000000000000^4155"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o Classes/CDVPlugin.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPlugin.o36"A38FAB54-F871-446C-A148-358363F7E2B5-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975407.934643
+e412975408.160767
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection106"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m202"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler1b67ef2f819db841^8d282930819db841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m0000000000000000^4191"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o Classes/CDVPluginResult.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVPluginResult.o36"78AB13D1-C192-437E-B72A-2A6C34424616-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.455321
+e412975409.889019
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m190"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler0caf7431819db841^3597e331819db841^---0#0#1#-19%DVTDocumentLocation2@108"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m0000000000000000^4155"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o Classes/CDVShared.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVShared.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVShared.o36"AC164F28-C718-42E1-A99D-33BBE7434397-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.350831
+e412975409.453912
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m188"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compileraef15931819db841^2b4f7431819db841^---0#0#1#-19%DVTDocumentLocation2@107"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m0000000000000000^4149"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o Classes/CDVTimer.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVTimer.o36"C48202CC-8D04-4D53-AECE-51F7ED312B76-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.162140
+e412975408.938343
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+o/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m:168:46: warning: implicit conversion loses integer precision: 'long long' to 'unsigned long' [-Wshorten-64-to-32]
+o                Byte* buffer = (Byte*)malloc([assetRepresentation size]);
+o                                      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m:169:100: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]
+o                NSUInteger bufferSize = [assetRepresentation getBytes:buffer fromOffset:0.0 length:[assetRepresentation size] error:nil];
+o                                        ~                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~
+o2 warnings generated.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection105"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m200"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilera8a92930819db841^7636f030819db841^-875"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m:168:46: warning: implicit conversion loses integer precision: 'long long' to 'unsigned long' [-Wshorten-64-to-32]                Byte* buffer = (Byte*)malloc([assetRepresentation size]);                                      ~~~~~~ ^~~~~~~~~~~~~~~~~~~~~~~~~~/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m:169:100: warning: implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int') [-Wshorten-64-to-32]                NSUInteger bufferSize = [assetRepresentation getBytes:buffer fromOffset:0.0 length:[assetRepresentation size] error:nil];                                        ~                                                          ^~~~~~~~~~~~~~~~~~~~~~~~~~2 warnings generated.2(36%IDEClangDiagnosticActivityLogMessage2@75"Implicit conversion loses integer precision: 'long long' to 'unsigned long'-412975408#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^167#45#167#45#7198#0#22"Value Conversion Issue2(3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^167#45#167#71#7198#25#3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^167#38#167#44#7191#0#-2@93"Implicit conversion loses integer precision: 'long long' to 'NSUInteger' (aka 'unsigned int')-412975408#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^168#99#168#99#7326#0#22"Value Conversion Issue2(3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^168#99#168#125#7326#25#3@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^168#40#168#41#7267#0#-0#0#1#-19%DVTDocumentLocation4@113"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m0000000000000000^4185"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o Classes/CDVURLProtocol.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVURLProtocol.o36"FC6319B2-8654-49CF-8356-2BBC67ADC5BE-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.252851
+e412975409.454541
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m204"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerebe04031819db841^5b5f7431819db841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m0000000000000000^4197"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o Classes/CDVUserAgentUtil.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVUserAgentUtil.o36"47D65B10-C0A9-4DB4-BF48-4D61FBE88834-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.237405
+e412975410.605157
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDV.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVURLProtocol.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVDebug.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVLocalStorage.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVTimer.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVJSON.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVCommandDelegateImpl.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVConfigParser.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVUserAgentUtil.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection108"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m206"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilere7e13c30819db841^f6eb9a32819db841^---0#0#1#-19%DVTDocumentLocation2@116"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m0000000000000000^4203"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o Classes/CDVViewController.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVViewController.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVViewController.o36"80733170-F5E4-4458-8121-527EA5B78F4E-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975409.285056
+e412975409.583415
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVAvailability.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m208"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerbd1d4931819db841^7c629531819db841^---0#0#1#-19%DVTDocumentLocation2@117"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m0000000000000000^4209"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o Classes/CDVWebViewDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWebViewDelegate.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWebViewDelegate.o36"93F040BD-7F08-4D25-80B1-D53B32A0916A-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.153237
+e412975408.261134
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m196"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler2f4f2730819db841^bed94230819db841^---0#0#1#-19%DVTDocumentLocation2@111"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m0000000000000000^4173"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o Classes/CDVWhitelist.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/CDVWhitelist.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/CDVWhitelist.o36"827DEE50-D612-4B87-B863-F16B9BCE9A52-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.959630
+e412975409.013448
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerc6e0f530819db841^3b730331819db841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m0000000000000000^4215"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o Classes/NSArray+Comparisons.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSArray+Comparisons.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSArray+Comparisons.o36"36FDCF9A-77F8-4131-9C00-6C4B82E6F123-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975407.934432
+e412975408.151964
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection104"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m198"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compilerdd5def2f819db841^2ee72630819db841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m0000000000000000^4179"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o Classes/NSData+Base64.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSData+Base64.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSData+Base64.o36"7624E21E-3FB6-4F53-B54C-AE5778FD9E36-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975407.934453
+e412975408.151200
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m218"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler465def2f819db841^4cc12630819db841^---0#0#1#-19%DVTDocumentLocation2@122"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m0000000000000000^4239"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o Classes/NSDictionary+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSDictionary+Extensions.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSDictionary+Extensions.o36"51EE66B2-E71E-41F9-8892-2F80DF7FC6C3-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.153241
+e412975408.235906
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection120"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m230"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler145d2730819db841^ed643c30819db841^---0#0#1#-19%DVTDocumentLocation2@128"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m0000000000000000^4275"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o Classes/NSMutableArray+QueueAdditions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/NSMutableArray+QueueAdditions.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/NSMutableArray+QueueAdditions.o36"C295D8C3-7ED4-4289-B763-8733C4C2F609-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975408.938456
+e412975409.127132
+r1
+xCompileC
+xbuild/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m210"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler9a5cf030819db841^768b2031819db841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m0000000000000000^4215"CompileC build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o Classes/UIDevice+Extensions.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/Classes/UIDevice+Extensions.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/UIDevice+Extensions.o36"4102B658-8A44-4D9B-B7B0-43F813CCCF81-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CCpHeader Classes/CDV.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDV.h
+r0
+
+CCpHeader Classes/CDVAvailability.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVAvailability.h
+r0
+
+CCpHeader Classes/CDVCommandDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegate.h
+r0
+
+CCpHeader Classes/CDVCommandDelegateImpl.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandDelegateImpl.h
+r0
+
+CCpHeader Classes/CDVCommandQueue.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVCommandQueue.h
+r0
+
+CCpHeader Classes/CDVConfigParser.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVConfigParser.h
+r0
+
+CCpHeader Classes/CDVDebug.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVDebug.h
+r0
+
+CCpHeader Classes/CDVEcho.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVEcho.h
+r0
+
+CCpHeader Classes/CDVInvokedUrlCommand.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVInvokedUrlCommand.h
+r0
+
+CCpHeader Classes/CDVJSON.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVJSON.h
+r0
+
+CCpHeader Classes/CDVLocalStorage.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVLocalStorage.h
+r0
+
+CCpHeader Classes/CDVPlugin.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPlugin.h
+r0
+
+CCpHeader Classes/CDVPluginResult.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVPluginResult.h
+r0
+
+CCpHeader Classes/CDVScreenOrientationDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVScreenOrientationDelegate.h
+r0
+
+CCpHeader Classes/CDVShared.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVShared.h
+r0
+
+CCpHeader Classes/CDVTimer.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVTimer.h
+r0
+
+CCpHeader Classes/CDVURLProtocol.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVURLProtocol.h
+r0
+
+CCpHeader Classes/CDVUserAgentUtil.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVUserAgentUtil.h
+r0
+
+CCpHeader Classes/CDVViewController.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVViewController.h
+r0
+
+CCpHeader Classes/CDVWebViewDelegate.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWebViewDelegate.h
+r0
+
+CCpHeader Classes/CDVWhitelist.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/CDVWhitelist.h
+r0
+
+CCpHeader Classes/NSArray+Comparisons.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSArray+Comparisons.h
+r0
+
+CCpHeader Classes/NSData+Base64.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSData+Base64.h
+r0
+
+CCpHeader Classes/NSDictionary+Extensions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSDictionary+Extensions.h
+r0
+
+CCpHeader Classes/NSMutableArray+QueueAdditions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/NSMutableArray+QueueAdditions.h
+r0
+
+CCpHeader Classes/UIDevice+Extensions.h /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include/Cordova/UIDevice+Extensions.h
+r0
+
+CLibtool /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a normal i386
+s412975410.614259
+e412975410.750583
+r1
+xLibtool
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a
+xnormal
+xi386
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection100"Libtool /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a normal i386100"Libtool /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a normal i386b8589d32819db841^ab26c032819db841^---0#0#1#--1387"Libtool /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a normal i386    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only i386 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -L/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -filelist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Objects-normal/i386/Cordova.LinkFileList -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/libCordova.a36"CB1A4C91-133B-4391-AF10-61CFB37B45D2-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+
+CProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s412975406.241709
+e412975407.925557
+r1
+xProcessPCH
+x/var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch
+xCordovaLib_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile CordovaLib_Prefix.pch291"ProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler10023e2e819db841^f5f1ec2f819db841^---0#0#1#-19%DVTDocumentLocation2@110"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch0000000000000000^4137"ProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch CordovaLib_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.0.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/Cordova-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources/i386 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/build/CordovaLib.build/Debug-iphonesimulator/CordovaLib.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build -DDEBUG --serialize-diagnostics /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.dia -MMD -MT dependencies -MF /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.d -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/CordovaLib/CordovaLib_Prefix.pch -o /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/CordovaLib_Prefix-faihagnkzrnjmagavsrdiwxvsjjv/CordovaLib_Prefix.pch.pch36"55A552D8-D5B9-408A-8512-BC66896CD99E-
+b4AF8E6FF-3AF8-48D5-8C24-BA0328BBE4C8
+

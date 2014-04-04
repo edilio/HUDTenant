@@ -1,0 +1,714 @@
+THUD Tenant
+v6
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Info.plist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/HUD\ Tenant-Info.plist
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist
+cPhaseScriptExecution Copy\ www\ directory /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Script-304B58A110DAC018002A0835.sh
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72.png HUD\ Tenant/Resources/icons/icon-72.png
+cCpResource HUD\ Tenant/config.xml build/device/HUD\ HUD\ Tenant.app/config.xml
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon.png HUD\ Tenant/Resources/icons/icon.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon@2x.png HUD\ Tenant/Resources/icons/icon@2x.png
+cCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/en.lproj/Localizable.strings HUD\ Tenant/Resources/en.lproj/Localizable.strings
+cCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/es.lproj/Localizable.strings HUD\ Tenant/Resources/es.lproj/Localizable.strings
+cCompileXIB /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.xib
+cCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/de.lproj/Localizable.strings HUD\ Tenant/Resources/de.lproj/Localizable.strings
+cCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/se.lproj/Localizable.strings HUD\ Tenant/Resources/se.lproj/Localizable.strings
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape~ipad.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png HUD\ Tenant/Resources/splash/Default@2x~iphone.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default~iphone.png HUD\ Tenant/Resources/splash/Default~iphone.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.png
+cCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png HUD\ Tenant/Resources/icons/icon-72@2x.png
+cProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD\ Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD\ Tenant-Prefix.pch.pch HUD\ Tenant/HUD\ Tenant-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant normal armv7
+cGenerateDSYMFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app.dSYM /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant
+cProcessProductPackaging /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision
+cTouch /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent
+cCodeSign /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk
+c00000000528A0B990000000000000110
+t1384778649
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+c00000000525EBB1D0000000000000094
+t1381939997
+s148
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+c00000000525EBB1D0000000000000096
+t1381939997
+s150
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/SDKSettings.plist
+c00000000525EBB1D000000000000036B
+t1381939997
+s875
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000528A09F300000000000001A0
+t1384778227
+s416
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+c00000000528A09F30000000000075BB0
+t1384778227
+s482224
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000528A09F700000000004D63C0
+t1384778231
+s5071808
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c00000000528A09F90000000000146100
+t1384778233
+s1335552
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+c00000000528A0A000000000000210C80
+t1384778240
+s2165888
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/AppDelegate.m
+c0000000052EF0ECD00000000000013A3
+t1391398605
+s5027
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.m
+c0000000052EF0ECD0000000000001267
+t1391398605
+s4711
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.xib
+c0000000052EF0ECD0000000000001759
+t1391398605
+s5977
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/HUD Tenant-Info.plist
+c0000000052EF11520000000000000742
+t1391399250
+s1858
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/HUD Tenant-Prefix.pch
+c0000000052EF0ECD00000000000003BD
+t1391398605
+s957
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/de.lproj/Localizable.strings
+c0000000052EF0ECD00000000000004BF
+t1391398605
+s1215
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/en.lproj/Localizable.strings
+c0000000052EF0ECD00000000000004AA
+t1391398605
+s1194
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/es.lproj/Localizable.strings
+c0000000052EF0ECD00000000000004B7
+t1391398605
+s1207
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/icons/icon-72.png
+c0000000052EF0ECD0000000000001350
+t1391398605
+s4944
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/icons/icon-72@2x.png
+c0000000052EF0ECD0000000000002DBA
+t1391398605
+s11706
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/icons/icon.png
+c0000000052EF0ECD0000000000000F3E
+t1391398605
+s3902
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/icons/icon@2x.png
+c0000000052EF0ECD0000000000001EBD
+t1391398605
+s7869
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/se.lproj/Localizable.strings
+c0000000052EF0ECD00000000000004AB
+t1391398605
+s1195
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default-568h@2x~iphone.png
+c0000000052EF0ECD00000000000085B1
+t1391398605
+s34225
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default-Landscape@2x~ipad.png
+c0000000052EF0ECD0000000000012DF4
+t1391398605
+s77300
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default-Landscape~ipad.png
+c0000000052EF0ECD0000000000008877
+t1391398605
+s34935
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default-Portrait@2x~ipad.png
+c0000000052EF0ECD0000000000012B02
+t1391398605
+s76546
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default-Portrait~ipad.png
+c0000000052EF0ECD00000000000085E6
+t1391398605
+s34278
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default@2x~iphone.png
+c0000000052EF0ECD0000000000007323
+t1391398605
+s29475
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Resources/splash/Default~iphone.png
+c0000000052EF0ECD000000000000289A
+t1391398605
+s10394
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/config.xml
+c0000000052EF115300000000000008F6
+t1391399251
+s2294
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/main.m
+c0000000052EF0ECD0000000000000458
+t1391398605
+s1112
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/HUD HUD Tenant.xcent
+t1391399261
+s412
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/AppDelegate.o
+t1391399260
+s78032
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/HUD HUD Tenant.LinkFileList
+c0000000052EF115700000000000001C8
+t1391399255
+s456
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/MainViewController.o
+t1391399260
+s53280
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/main.o
+t1391399260
+s3132
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Script-304B58A110DAC018002A0835.sh
+c0000000052EF1157000000000000002D
+t1391399255
+s45
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app
+t1391399261
+s816
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app.dSYM
+t2
+s0
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-568h@2x~iphone.png
+t1391399260
+s61990
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Landscape@2x~ipad.png
+t1391399260
+s143186
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Landscape~ipad.png
+t1391399260
+s65305
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Portrait@2x~ipad.png
+t1391399260
+s136924
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Portrait~ipad.png
+t1391399260
+s63460
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default@2x~iphone.png
+t1391399260
+s55319
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default~iphone.png
+t1391399260
+s20021
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/HUD HUD Tenant
+t1391399261
+s300720
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Info.plist
+t1391399255
+s1363
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/MainViewController.nib
+t1391399259
+s1332
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/PkgInfo
+t2
+s0
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/ResourceRules.plist
+t1391399255
+s150
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/config.xml
+t1391399259
+s2294
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/de.lproj/Localizable.strings
+t1391399259
+s280
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/embedded.mobileprovision
+t1391399261
+s7526
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/en.lproj/Localizable.strings
+t1391399259
+s166
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/es.lproj/Localizable.strings
+t1391399259
+s334
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon-72.png
+t1391399259
+s8045
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon-72@2x.png
+t1391399260
+s17926
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon.png
+t1391399259
+s5977
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon@2x.png
+t1391399259
+s13012
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/se.lproj/Localizable.strings
+t1391399259
+s283
+
+N/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/libCordova.a
+c0000000052EF115700000000000E3C78
+t1391399255
+s932984
+
+N/Users/edilio/Library/MobileDevice/Provisioning Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision
+c00000000527668D80000000000001D66
+t1383491800
+s7526
+
+N/var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD Tenant-Prefix.pch.pch
+t1391399244
+s5280236
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies3b55ded7489fb841^7cbae6d7489fb841^---0#1#1#--18"Check dependencies36"E52E4437-A008-43CA-928F-9CC4E191148B-
+
+CCodeSign /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app
+s413092061.412412
+e413092062.055562
+r1
+xCodeSign
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"CodeSign build/device/HUD\ HUD\ Tenant.app42"CodeSign build/device/HUD\ HUD\ Tenant.app0cb269dd489fb841^b03a0ede489fb841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD%20HUD%20Tenant.app/0000000000000000^1465"CodeSign build/device/HUD\ HUD\ Tenant.app    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    Using code signing identity "iPhone Developer: Edilio Gallardo (DSBV9V276Z)" and provisioning profile "iOS Team Provisioning Profile: com.jedutils.tenant" (1646F235-360C-44B9-A3AD-E0FAA1F782C7)    codesign --force --sign 6E359E2AF190A11F9AC1C913C82BDDBFA58749A1 --resource-rules=/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist --entitlements /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app36"9135A250-8083-4FC7-91BB-70EE64A3747A-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413092060.465416
+e413092060.572277
+r1
+xCompileC
+xbuild/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/AppDelegate.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/AppDelegate.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/AppDelegate.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/AppDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/AppDelegate.m203"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.o HUD\ Tenant/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler354677dc489fb841^8d8092dc489fb841^---0#0#1#-19%DVTDocumentLocation2@112"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Classes/AppDelegate.m0000000000000000^4179"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.o HUD\ Tenant/Classes/AppDelegate.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/UninstalledProducts/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources/armv7 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD\ Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD\ Tenant-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/AppDelegate.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/AppDelegate.o36"349B7424-FEB9-41DC-BD85-04F287E06426-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413092060.465954
+e413092060.563722
+r1
+xCompileC
+xbuild/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/MainViewController.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.m
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVViewController.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVAvailability.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVInvokedUrlCommand.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandQueue.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVWhitelist.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVScreenOrientationDelegate.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVPlugin.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVPluginResult.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/NSMutableArray+QueueAdditions.h
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include/Cordova/CDVCommandDelegateImpl.h
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection109"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.m217"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.o HUD\ Tenant/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler346577dc489fb841^595090dc489fb841^---0#0#1#-19%DVTDocumentLocation2@119"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Classes/MainViewController.m0000000000000000^4221"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.o HUD\ Tenant/Classes/MainViewController.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/UninstalledProducts/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources/armv7 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD\ Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD\ Tenant-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/MainViewController.o36"17C096B4-21F6-40BE-8E21-6EE0D48B55B4-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s413092060.465179
+e413092060.516353
+r1
+xCompileC
+xbuild/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/main.o
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/main.m
+xnormal
+xarmv7
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/main.m
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/main.m181"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.o HUD\ Tenant/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compilerb43c77dc489fb841^bb4584dc489fb841^---0#0#1#-19%DVTDocumentLocation2@97"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/main.m0000000000000000^4121"CompileC build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.o HUD\ Tenant/main.m normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch armv7 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -std=c99 -fobjc-arc -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wno-arc-repeated-use-of-weak -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wno-deprecated-implementations -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility=hidden -Wno-sign-conversion -miphoneos-version-min=5.0 -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-generated-files.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-own-target-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-all-target-headers.hmap -iquote /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant-project-headers.hmap -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/usr/local/lib/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/UninstalledProducts/include -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources/armv7 -I/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/DerivedSources -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -include /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD\ Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD\ Tenant-Prefix.pch -MMD -MT dependencies -MF /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.d --serialize-diagnostics /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.dia -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/main.m -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/main.o36"01CD8BAF-E784-4639-9E84-07228D1C7D3E-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCompileXIB /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.xib
+s413092059.912501
+e413092059.962556
+r1
+xCompileXIB
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.xib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Compiling /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/Classes/MainViewController.xib53"CompileXIB HUD\ Tenant/Classes/MainViewController.xib03b4e9db489fb841^bf7cf6db489fb841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Classes/MainViewController.xib0000000000000000^1173"CompileXIB HUD\ Tenant/Classes/MainViewController.xib    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    setenv XCODE_DEVELOPER_USR_PATH /Applications/Xcode.app/Contents/Developer/usr/bin/..    /Applications/Xcode.app/Contents/Developer/usr/bin/ibtool --errors --warnings --notices --minimum-deployment-target 5.0 --output-format human-readable-text --compile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/MainViewController.nib /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Classes/MainViewController.xib36"64185A6C-BA98-48AE-B5A9-7B3896B705AF-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.png
+s413092060.352896
+e413092060.452812
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-568h@2x~iphone.png
+xHUD Tenant/Resources/splash/Default-568h@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.png128"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.pnga3735adc489fb841^f4fe73dc489fb841^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default-568h@2x~iphone.png0000000000000000^1116"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default-568h@2x~iphone.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-568h@2x~iphone.png36"DD2271BC-68C7-4248-B852-FD1C2BFEC774-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png
+s413092059.923951
+e413092060.305114
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Landscape@2x~ipad.png
+xHUD Tenant/Resources/splash/Default-Landscape@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection134"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png134"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png5aa1ecdb489fb841^103c4edc489fb841^---0#0#1#-19%DVTDocumentLocation2@137"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default-Landscape@2x~ipad.png0000000000000000^1128"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default-Landscape@2x~ipad.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape@2x~ipad.png36"206E64F8-3545-4979-BC01-F8A5588A427F-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape~ipad.png
+s413092059.938414
+e413092060.111010
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Landscape~ipad.png
+xHUD Tenant/Resources/splash/Default-Landscape~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection128"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape~ipad.png128"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape~ipad.pngd652f0db489fb841^4a7e1cdc489fb841^---0#0#1#-19%DVTDocumentLocation2@134"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default-Landscape~ipad.png0000000000000000^1116"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png HUD\ Tenant/Resources/splash/Default-Landscape~ipad.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default-Landscape~ipad.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Landscape~ipad.png36"C36D2882-600C-4F00-B954-831FC99D5EA5-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png
+s413092059.963951
+e413092060.351654
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Portrait@2x~ipad.png
+xHUD Tenant/Resources/splash/Default-Portrait@2x~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection132"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png132"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png1edff6db489fb841^cc285adc489fb841^---0#0#1#-19%DVTDocumentLocation2@136"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default-Portrait@2x~ipad.png0000000000000000^1124"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default-Portrait@2x~ipad.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait@2x~ipad.png36"EDF2EE57-33EE-47FB-AE2B-6F83F6E19993-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png
+s413092060.112277
+e413092060.254711
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default-Portrait~ipad.png
+xHUD Tenant/Resources/splash/Default-Portrait~ipad.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection126"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png126"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png78d41cdc489fb841^804641dc489fb841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default-Portrait~ipad.png0000000000000000^1112"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default-Portrait~ipad.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default-Portrait~ipad.png36"B5BA5007-56A3-48ED-932C-316EE19394F6-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png HUD\ Tenant/Resources/splash/Default@2x~iphone.png
+s413092060.255955
+e413092060.388227
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default@2x~iphone.png
+xHUD Tenant/Resources/splash/Default@2x~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection118"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png HUD\ Tenant/Resources/splash/Default@2x~iphone.png118"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png HUD\ Tenant/Resources/splash/Default@2x~iphone.png05a441dc489fb841^488763dc489fb841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default@2x~iphone.png0000000000000000^1096"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png HUD\ Tenant/Resources/splash/Default@2x~iphone.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default@2x~iphone.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default@2x~iphone.png36"51DD7720-F3C6-453A-B6CF-40541BCD8485-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default~iphone.png HUD\ Tenant/Resources/splash/Default~iphone.png
+s413092060.306375
+e413092060.374337
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Default~iphone.png
+xHUD Tenant/Resources/splash/Default~iphone.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection112"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default~iphone.png HUD\ Tenant/Resources/splash/Default~iphone.png112"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default~iphone.png HUD\ Tenant/Resources/splash/Default~iphone.png40a54edc489fb841^e0f35fdc489fb841^---0#0#1#-19%DVTDocumentLocation2@126"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/splash/Default~iphone.png0000000000000000^1084"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/Default~iphone.png HUD\ Tenant/Resources/splash/Default~iphone.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/splash/Default~iphone.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Default~iphone.png36"EF586F41-ACEE-4135-ADF3-476DE2C66F05-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72.png HUD\ Tenant/Resources/icons/icon-72.png
+s413092059.459525
+e413092059.909011
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon-72.png
+xHUD Tenant/Resources/icons/icon-72.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72.png HUD\ Tenant/Resources/icons/icon-72.png97"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72.png HUD\ Tenant/Resources/icons/icon-72.pnge4ba75db489fb841^8ae3e8db489fb841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/icons/icon-72.png0000000000000000^1054"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72.png HUD\ Tenant/Resources/icons/icon-72.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/icons/icon-72.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72.png36"43C1CBCD-6727-4D50-AC06-01D54F777616-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png HUD\ Tenant/Resources/icons/icon-72@2x.png
+s413092060.375910
+e413092060.414808
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon-72@2x.png
+xHUD Tenant/Resources/icons/icon-72@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection103"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png HUD\ Tenant/Resources/icons/icon-72@2x.png103"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png HUD\ Tenant/Resources/icons/icon-72@2x.pngda5560dc489fb841^32576adc489fb841^---0#0#1#-19%DVTDocumentLocation2@121"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/icons/icon-72@2x.png0000000000000000^1066"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png HUD\ Tenant/Resources/icons/icon-72@2x.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/icons/icon-72@2x.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon-72@2x.png36"C648DE49-CF0A-4F5D-92BB-F0702AA51956-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon.png HUD\ Tenant/Resources/icons/icon.png
+s413092059.459543
+e413092059.908288
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon.png
+xHUD Tenant/Resources/icons/icon.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection91"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon.png HUD\ Tenant/Resources/icons/icon.png91"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon.png HUD\ Tenant/Resources/icons/icon.pngedb875db489fb841^ea93e8db489fb841^---0#0#1#-19%DVTDocumentLocation2@115"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/icons/icon.png0000000000000000^1042"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon.png HUD\ Tenant/Resources/icons/icon.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/icons/icon.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon.png36"60373EFF-A4C6-4BDE-A276-5B7EF6E70252-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyPNGFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon@2x.png HUD\ Tenant/Resources/icons/icon@2x.png
+s413092059.464091
+e413092059.911248
+r1
+xCopyPNGFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/icon@2x.png
+xHUD Tenant/Resources/icons/icon@2x.png
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection97"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon@2x.png HUD\ Tenant/Resources/icons/icon@2x.png97"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon@2x.png HUD\ Tenant/Resources/icons/icon@2x.png21e676db489fb841^ef57e9db489fb841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/icons/icon@2x.png0000000000000000^1054"CopyPNGFile build/device/HUD\ HUD\ Tenant.app/icon@2x.png HUD\ Tenant/Resources/icons/icon@2x.png    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/Resources/icons/icon@2x.png /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/icon@2x.png36"9661FBBD-97F9-4A0B-BFBD-0899F0EE6DE7-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/de.lproj/Localizable.strings HUD\ Tenant/Resources/de.lproj/Localizable.strings
+s413092059.915064
+e413092059.922604
+r1
+xCopyStringsFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/de.lproj/Localizable.strings
+xHUD Tenant/Resources/de.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HUD Tenant/Resources/de.lproj/Localizable.strings129"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/de.lproj/Localizable.strings HUD\ Tenant/Resources/de.lproj/Localizable.strings9160eadb489fb841^ff3decdb489fb841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/de.lproj/Localizable.strings0000000000000000^1014"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/de.lproj/Localizable.strings HUD\ Tenant/Resources/de.lproj/Localizable.strings    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/de.lproj -- HUD\ Tenant/Resources/de.lproj/Localizable.strings36"7CB4B1E1-BF1D-4FCD-84F1-D9AA98DE0EA4-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/en.lproj/Localizable.strings HUD\ Tenant/Resources/en.lproj/Localizable.strings
+s413092059.909969
+e413092059.913301
+r1
+xCopyStringsFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/en.lproj/Localizable.strings
+xHUD Tenant/Resources/en.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HUD Tenant/Resources/en.lproj/Localizable.strings129"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/en.lproj/Localizable.strings HUD\ Tenant/Resources/en.lproj/Localizable.stringscf15e9db489fb841^e1cee9db489fb841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/en.lproj/Localizable.strings0000000000000000^1014"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/en.lproj/Localizable.strings HUD\ Tenant/Resources/en.lproj/Localizable.strings    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/en.lproj -- HUD\ Tenant/Resources/en.lproj/Localizable.strings36"C19570FB-0F85-4C28-85BA-5533A7A72CCE-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/es.lproj/Localizable.strings HUD\ Tenant/Resources/es.lproj/Localizable.strings
+s413092059.909982
+e413092059.915869
+r1
+xCopyStringsFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/es.lproj/Localizable.strings
+xHUD Tenant/Resources/es.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HUD Tenant/Resources/es.lproj/Localizable.strings129"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/es.lproj/Localizable.strings HUD\ Tenant/Resources/es.lproj/Localizable.strings8d28e9db489fb841^ebe6eadb489fb841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/es.lproj/Localizable.strings0000000000000000^1014"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/es.lproj/Localizable.strings HUD\ Tenant/Resources/es.lproj/Localizable.strings    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/es.lproj -- HUD\ Tenant/Resources/es.lproj/Localizable.strings36"E3094BCC-A8FF-47BB-AFB1-C5DD9C347AB2-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCopyStringsFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/se.lproj/Localizable.strings HUD\ Tenant/Resources/se.lproj/Localizable.strings
+s413092059.918406
+e413092059.936406
+r1
+xCopyStringsFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/se.lproj/Localizable.strings
+xHUD Tenant/Resources/se.lproj/Localizable.strings
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy HUD Tenant/Resources/se.lproj/Localizable.strings129"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/se.lproj/Localizable.strings HUD\ Tenant/Resources/se.lproj/Localizable.strings0839ebdb489fb841^d6c7efdb489fb841^---0#0#1#-19%DVTDocumentLocation2@129"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/Resources/se.lproj/Localizable.strings0000000000000000^1014"CopyStringsFile build/device/HUD\ HUD\ Tenant.app/se.lproj/Localizable.strings HUD\ Tenant/Resources/se.lproj/Localizable.strings    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/se.lproj -- HUD\ Tenant/Resources/se.lproj/Localizable.strings36"2788270F-46C8-48B1-B364-AC46AE2A8ECB-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist
+s413092055.923412
+e413092055.940676
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist
+xbuild/device/HUD HUD Tenant.app/ResourceRules.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection56"Copy build/device/HUD HUD Tenant.app/ResourceRules.plist186"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist247becd7489fb841^5bd3f0d7489fb841^---0#0#1#-19%DVTDocumentLocation2@133"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD%20HUD%20Tenant.app/ResourceRules.plist0038f4d6ddffdf42^1152"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/ResourceRules.plist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app36"DF9E9BAA-7380-42F8-A775-5A8D679F5BF2-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CCpResource HUD\ Tenant/config.xml build/device/HUD\ HUD\ Tenant.app/config.xml
+s413092059.459529
+e413092059.462835
+r1
+xCpResource
+xHUD Tenant/config.xml
+xbuild/device/HUD HUD Tenant.app/config.xml
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/device/HUD HUD Tenant.app/config.xml78"CpResource HUD\ Tenant/config.xml build/device/HUD\ HUD\ Tenant.app/config.xml0fb975db489fb841^d07c76db489fb841^---0#0#1#-19%DVTDocumentLocation2@124"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD%20HUD%20Tenant.app/config.xml0038f4d6ddffdf42^1007"CpResource HUD\ Tenant/config.xml build/device/HUD\ HUD\ Tenant.app/config.xml    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/config.xml /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app36"8B8F023E-D904-45B4-B75A-56E7D3484193-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CGenerateDSYMFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app.dSYM /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant
+s413092061.241709
+e413092061.342074
+r1
+xGenerateDSYMFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app.dSYM
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/HUD HUD Tenant
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generate /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app.dSYM106"GenerateDSYMFile build/device/HUD\ HUD\ Tenant.app.dSYM build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant17f13ddd489fb841^3a9257dd489fb841^---0#0#1#-19%DVTDocumentLocation2@118"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD%20HUD%20Tenant.app.dSYM0038f4d6ddffdf42^1059"GenerateDSYMFile build/device/HUD\ HUD\ Tenant.app.dSYM build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app.dSYM36"F9EAB98C-E7D8-468F-B854-F0F88BC12CCB-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CLd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant normal armv7
+s413092060.580626
+e413092061.233275
+r1
+xLd
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/HUD HUD Tenant
+xnormal
+xarmv7
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/HUD HUD Tenant.LinkFileList
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/libCordova.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/crt1.3.1.o
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/main.o
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/AppDelegate.o
+d/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/MainViewController.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreMedia.framework/CoreMedia
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AssetsLibrary.framework/AssetsLibrary
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/MobileCoreServices.framework/MobileCoreServices
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/arc/libarclite_iphoneos.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/libobjc.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.0/lib/darwin/libclang_rt.ios.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/Frameworks/AVFoundation.framework/libAVFAudio.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libsystem_stats.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/usr/lib/system/libxpc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/System/Library/PrivateFrameworks/UIFoundation.framework/UIFoundation
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection113"Link /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/HUD HUD Tenant66"Ld build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant normal armv72fc294dc489fb841^1bb83bdd489fb841^---0#0#1#--2116"Ld build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant normal armv7    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk -L/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -F/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device -filelist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/HUD\ HUD\ Tenant.LinkFileList -dead_strip -weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/libCordova.a -ObjC -fobjc-arc -fobjc-link-runtime -miphoneos-version-min=5.0 -framework AssetsLibrary /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/libCordova.a -framework CoreGraphics -framework MobileCoreServices -framework CoreLocation -Xlinker -dependency_info -Xlinker /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Objects-normal/armv7/HUD\ HUD\ Tenant_dependency_info.dat -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/HUD\ HUD\ Tenant36"2D54FA8A-4D58-4743-A28D-5C12D7D7F6AC-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CPhaseScriptExecution Copy\ www\ directory /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Script-304B58A110DAC018002A0835.sh
+s413092055.949617
+e413092059.451482
+r1
+xPhaseScriptExecution
+xCopy www directory
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Script-304B58A110DAC018002A0835.sh
+o
+oreal	0m3.481s
+ouser	0m0.124s
+osys	0m0.151s
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection44"Run custom shell script 'Copy www directory'133"PhaseScriptExecution Copy\ www\ directory build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Script-304B58A110DAC018002A0835.she3c4f3d7489fb841^ea9473db489fb841^-42"real	0m3.481suser	0m0.124ssys	0m0.151s3(21%IDEActivityLogMessage2@14"real	0m3.481s-413092059#1#14#-0#-----2@14"user	0m0.124s-413092059#15#14#-0#-----2@13"sys	0m0.151s-413092059#29#13#-0#-----0#0#1#--23260"PhaseScriptExecution Copy\ www\ directory build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Script-304B58A110DAC018002A0835.sh    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv ACTION build    setenv AD_HOC_CODE_SIGNING_ALLOWED NO    setenv ALTERNATE_GROUP staff    setenv ALTERNATE_MODE u+w,go-w,a+rX    setenv ALTERNATE_OWNER edilio    setenv ALWAYS_SEARCH_USER_PATHS NO    setenv ALWAYS_USE_SEPARATE_HEADERMAPS YES    setenv APPLE_INTERNAL_DEVELOPER_DIR /AppleInternal/Developer    setenv APPLE_INTERNAL_DIR /AppleInternal    setenv APPLE_INTERNAL_DOCUMENTATION_DIR /AppleInternal/Documentation    setenv APPLE_INTERNAL_LIBRARY_DIR /AppleInternal/Library    setenv APPLE_INTERNAL_TOOLS /AppleInternal/Developer/Tools    setenv APPLY_RULES_IN_COPY_FILES NO    setenv ARCHS armv7    setenv ARCHS_STANDARD "armv7 armv7s"    setenv ARCHS_STANDARD_32_64_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_32_BIT "armv7 armv7s"    setenv ARCHS_STANDARD_64_BIT arm64    setenv ARCHS_STANDARD_INCLUDING_64_BIT "armv7 armv7s arm64"    setenv ARCHS_UNIVERSAL_IPHONE_OS "armv7 armv7s"    setenv AVAILABLE_PLATFORMS "iphonesimulator macosx iphoneos"    setenv BUILD_COMPONENTS "headers build"    setenv BUILD_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv BUILD_ROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv BUILD_STYLE     setenv BUILD_VARIANTS normal    setenv BUILT_PRODUCTS_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device    setenv CACHE_ROOT /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CCHROOT /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode    setenv CHMOD /bin/chmod    setenv CHOWN /usr/sbin/chown    setenv CLANG_ENABLE_OBJC_ARC YES    setenv CLANG_WARN_BOOL_CONVERSION YES    setenv CLANG_WARN_CONSTANT_CONVERSION YES    setenv CLANG_WARN_EMPTY_BODY YES    setenv CLANG_WARN_ENUM_CONVERSION YES    setenv CLANG_WARN_INT_CONVERSION YES    setenv CLANG_WARN__DUPLICATE_METHOD_MATCH YES    setenv CLASS_FILE_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/JavaClasses"    setenv CLEAN_PRECOMPS YES    setenv CLONE_HEADERS NO    setenv CODESIGNING_FOLDER_PATH "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app"    setenv CODE_SIGNING_ALLOWED YES    setenv CODE_SIGNING_REQUIRED YES    setenv CODE_SIGN_CONTEXT_CLASS XCiPhoneOSCodeSignContext    setenv CODE_SIGN_IDENTITY "iPhone Developer"    setenv COLOR_DIAGNOSTICS NO    setenv COMBINE_HIDPI_IMAGES NO    setenv COMMAND_MODE legacy    setenv COMPOSITE_SDK_DIRS /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/CompositeSDKs    setenv COMPRESS_PNG_FILES YES    setenv CONFIGURATION Debug    setenv CONFIGURATION_BUILD_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device    setenv CONFIGURATION_TEMP_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos"    setenv CONTENTS_FOLDER_PATH "HUD HUD Tenant.app"    setenv COPYING_PRESERVES_HFS_DATA NO    setenv COPY_PHASE_STRIP NO    setenv COPY_RESOURCES_FROM_STATIC_FRAMEWORKS YES    setenv CP /bin/cp    setenv CREATE_INFOPLIST_SECTION_IN_BINARY NO    setenv CURRENT_ARCH armv7    setenv CURRENT_VARIANT normal    setenv DEAD_CODE_STRIPPING YES    setenv DEBUGGING_SYMBOLS YES    setenv DEBUG_INFORMATION_FORMAT dwarf-with-dsym    setenv DEFAULT_COMPILER com.apple.compilers.llvm.clang.1_0    setenv DEFAULT_KEXT_INSTALL_PATH /System/Library/Extensions    setenv DEPLOYMENT_LOCATION NO    setenv DEPLOYMENT_POSTPROCESSING NO    setenv DERIVED_FILES_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/DerivedSources"    setenv DERIVED_FILE_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/DerivedSources"    setenv DERIVED_SOURCES_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/DerivedSources"    setenv DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv DEVELOPER_FRAMEWORKS_DIR /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_FRAMEWORKS_DIR_QUOTED /Applications/Xcode.app/Contents/Developer/Library/Frameworks    setenv DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/Developer/Library    setenv DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs    setenv DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Tools    setenv DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv DEVELOPMENT_LANGUAGE English    setenv DOCUMENTATION_FOLDER_PATH "HUD HUD Tenant.app/English.lproj/Documentation"    setenv DO_HEADER_SCANNING_IN_JAM NO    setenv DSTROOT "/tmp/HUD Tenant.dst"    setenv DT_TOOLCHAIN_DIR /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain    setenv DWARF_DSYM_FILE_NAME "HUD HUD Tenant.app.dSYM"    setenv DWARF_DSYM_FILE_SHOULD_ACCOMPANY_PRODUCT NO    setenv DWARF_DSYM_FOLDER_PATH /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device    setenv EFFECTIVE_PLATFORM_NAME -iphoneos    setenv EMBEDDED_PROFILE_NAME embedded.mobileprovision    setenv ENABLE_HEADER_DEPENDENCIES YES    setenv ENTITLEMENTS_ALLOWED YES    setenv ENTITLEMENTS_REQUIRED YES    setenv EXCLUDED_INSTALLSRC_SUBDIRECTORY_PATTERNS ".DS_Store .svn .git .hg CVS"    setenv EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES "*.nib *.lproj *.framework *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj"    setenv EXECUTABLES_FOLDER_PATH "HUD HUD Tenant.app/Executables"    setenv EXECUTABLE_FOLDER_PATH "HUD HUD Tenant.app"    setenv EXECUTABLE_NAME "HUD HUD Tenant"    setenv EXECUTABLE_PATH "HUD HUD Tenant.app/HUD HUD Tenant"    setenv FILE_LIST "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects/LinkFileList"    setenv FIXED_FILES_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/FixedFiles"    setenv FRAMEWORKS_FOLDER_PATH "HUD HUD Tenant.app/Frameworks"    setenv FRAMEWORK_FLAG_PREFIX -framework    setenv FRAMEWORK_SEARCH_PATHS "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device "    setenv FRAMEWORK_VERSION A    setenv FULL_PRODUCT_NAME "HUD HUD Tenant.app"    setenv GCC3_VERSION 3.3    setenv GCC_C_LANGUAGE_STANDARD c99    setenv GCC_DYNAMIC_NO_PIC NO    setenv GCC_INLINES_ARE_PRIVATE_EXTERN YES    setenv GCC_OPTIMIZATION_LEVEL 0    setenv GCC_PFE_FILE_C_DIALECTS "c objective-c c++ objective-c++"    setenv GCC_PRECOMPILE_PREFIX_HEADER YES    setenv GCC_PREFIX_HEADER "HUD Tenant/HUD Tenant-Prefix.pch"    setenv GCC_SYMBOLS_PRIVATE_EXTERN YES    setenv GCC_THUMB_SUPPORT NO    setenv GCC_TREAT_WARNINGS_AS_ERRORS NO    setenv GCC_VERSION com.apple.compilers.llvm.clang.1_0    setenv GCC_VERSION_IDENTIFIER com_apple_compilers_llvm_clang_1_0    setenv GCC_WARN_ABOUT_RETURN_TYPE YES    setenv GCC_WARN_UNDECLARED_SELECTOR YES    setenv GCC_WARN_UNINITIALIZED_AUTOS YES    setenv GCC_WARN_UNUSED_FUNCTION YES    setenv GCC_WARN_UNUSED_VARIABLE YES    setenv GENERATE_MASTER_OBJECT_FILE NO    setenv GENERATE_PKGINFO_FILE YES    setenv GENERATE_PROFILING_CODE NO    setenv GID 20    setenv GROUP staff    setenv HEADERMAP_INCLUDES_FLAT_ENTRIES_FOR_TARGET_BEING_BUILT YES    setenv HEADERMAP_INCLUDES_FRAMEWORK_ENTRIES_FOR_ALL_PRODUCT_TYPES YES    setenv HEADERMAP_INCLUDES_NONPUBLIC_NONPRIVATE_HEADERS YES    setenv HEADERMAP_INCLUDES_PROJECT_HEADERS YES    setenv HEADER_SEARCH_PATHS "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/include \"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/usr/local/lib/include\" \"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/UninstalledProducts/include\" \"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device\""    setenv ICONV /usr/bin/iconv    setenv INFOPLIST_EXPAND_BUILD_SETTINGS YES    setenv INFOPLIST_FILE "HUD Tenant/HUD Tenant-Info.plist"    setenv INFOPLIST_OUTPUT_FORMAT binary    setenv INFOPLIST_PATH "HUD HUD Tenant.app/Info.plist"    setenv INFOPLIST_PREPROCESS NO    setenv INFOSTRINGS_PATH "HUD HUD Tenant.app/English.lproj/InfoPlist.strings"    setenv INSTALL_DIR "/tmp/HUD Tenant.dst/Applications"    setenv INSTALL_GROUP staff    setenv INSTALL_MODE_FLAG u+w,go-w,a+rX    setenv INSTALL_OWNER edilio    setenv INSTALL_PATH /Applications    setenv INSTALL_ROOT "/tmp/HUD Tenant.dst"    setenv IPHONEOS_DEPLOYMENT_TARGET 5.0    setenv JAVAC_DEFAULT_FLAGS "-J-Xms64m -J-XX:NewSize=4M -J-Dfile.encoding=UTF8"    setenv JAVA_APP_STUB /System/Library/Frameworks/JavaVM.framework/Resources/MacOS/JavaApplicationStub    setenv JAVA_ARCHIVE_CLASSES YES    setenv JAVA_ARCHIVE_TYPE JAR    setenv JAVA_COMPILER /usr/bin/javac    setenv JAVA_FOLDER_PATH "HUD HUD Tenant.app/Java"    setenv JAVA_FRAMEWORK_RESOURCES_DIRS Resources    setenv JAVA_JAR_FLAGS cv    setenv JAVA_SOURCE_SUBDIR .    setenv JAVA_USE_DEPENDENCIES YES    setenv JAVA_ZIP_FLAGS -urg    setenv JIKES_DEFAULT_FLAGS "+E +OLDCSO"    setenv KEEP_PRIVATE_EXTERNS NO    setenv LD_DEPENDENCY_INFO_FILE "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/HUD HUD Tenant_dependency_info.dat"    setenv LD_GENERATE_MAP_FILE NO    setenv LD_MAP_FILE_PATH "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/HUD HUD Tenant-LinkMap-normal-armv7.txt"    setenv LD_NO_PIE NO    setenv LD_QUOTE_LINKER_ARGUMENTS_FOR_COMPILER_DRIVER YES    setenv LEGACY_DEVELOPER_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer    setenv LEX lex    setenv LIBRARY_FLAG_NOSPACE YES    setenv LIBRARY_FLAG_PREFIX -l    setenv LIBRARY_KEXT_INSTALL_PATH /Library/Extensions    setenv LIBRARY_SEARCH_PATHS "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device "    setenv LINKER_DISPLAYS_MANGLED_NAMES NO    setenv LINK_FILE_LIST_normal_armv7 "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal/armv7/HUD HUD Tenant.LinkFileList"    setenv LINK_WITH_STANDARD_LIBRARIES YES    setenv LOCALIZED_RESOURCES_FOLDER_PATH "HUD HUD Tenant.app/English.lproj"    setenv LOCAL_ADMIN_APPS_DIR /Applications/Utilities    setenv LOCAL_APPS_DIR /Applications    setenv LOCAL_DEVELOPER_DIR /Library/Developer    setenv LOCAL_LIBRARY_DIR /Library    setenv MACH_O_TYPE mh_execute    setenv MAC_OS_X_PRODUCT_BUILD_VERSION 12F45    setenv MAC_OS_X_VERSION_ACTUAL 1085    setenv MAC_OS_X_VERSION_MAJOR 1080    setenv MAC_OS_X_VERSION_MINOR 0805    setenv MODULE_CACHE_DIR /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/ModuleCache    setenv NATIVE_ARCH armv7    setenv NATIVE_ARCH_32_BIT i386    setenv NATIVE_ARCH_64_BIT x86_64    setenv NATIVE_ARCH_ACTUAL x86_64    setenv NO_COMMON YES    setenv OBJECT_FILE_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects"    setenv OBJECT_FILE_DIR_normal "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/Objects-normal"    setenv OBJROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv ONLY_ACTIVE_ARCH YES    setenv OPTIMIZATION_LEVEL 0    setenv OS MACOS    setenv OSAC /usr/bin/osacompile    setenv OTHER_LDFLAGS "-weak_framework CoreFoundation -weak_framework UIKit -weak_framework AVFoundation -weak_framework CoreMedia -weak-lSystem -force_load \"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/libCordova.a\" -ObjC"    setenv PACKAGE_TYPE com.apple.package-type.wrapper.application    setenv PASCAL_STRINGS YES    setenv PATH "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/bin:/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/usr/local/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    setenv PATH_PREFIXES_EXCLUDED_FROM_HEADER_DEPENDENCIES "/usr/include /usr/local/include /System/Library/Frameworks /System/Library/PrivateFrameworks /Applications/Xcode.app/Contents/Developer/Headers /Applications/Xcode.app/Contents/Developer/SDKs /Applications/Xcode.app/Contents/Developer/Platforms"    setenv PBDEVELOPMENTPLIST_PATH "HUD HUD Tenant.app/pbdevelopment.plist"    setenv PFE_FILE_C_DIALECTS objective-c    setenv PKGINFO_FILE_PATH "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/PkgInfo"    setenv PKGINFO_PATH "HUD HUD Tenant.app/PkgInfo"    setenv PLATFORM_DEVELOPER_APPLICATIONS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Applications    setenv PLATFORM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin    setenv PLATFORM_DEVELOPER_LIBRARY_DIR /Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library    setenv PLATFORM_DEVELOPER_SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs    setenv PLATFORM_DEVELOPER_TOOLS_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Tools    setenv PLATFORM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr    setenv PLATFORM_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform    setenv PLATFORM_NAME iphoneos    setenv PLATFORM_PREFERRED_ARCH arm64    setenv PLATFORM_PRODUCT_BUILD_VERSION 11B508    setenv PLIST_FILE_OUTPUT_FORMAT binary    setenv PLUGINS_FOLDER_PATH "HUD HUD Tenant.app/PlugIns"    setenv PRECOMPS_INCLUDE_HEADERS_FROM_BUILT_PRODUCTS_DIR YES    setenv PRECOMP_DESTINATION_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/PrefixHeaders"    setenv PRESERVE_DEAD_CODE_INITS_AND_TERMS NO    setenv PRIVATE_HEADERS_FOLDER_PATH "HUD HUD Tenant.app/PrivateHeaders"    setenv PRODUCT_NAME "HUD HUD Tenant"    setenv PRODUCT_SETTINGS_PATH "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/HUD Tenant-Info.plist"    setenv PRODUCT_TYPE com.apple.product-type.application    setenv PROFILING_CODE NO    setenv PROJECT "HUD Tenant"    setenv PROJECT_DERIVED_FILE_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/DerivedSources"    setenv PROJECT_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PROJECT_FILE_PATH "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant.xcodeproj"    setenv PROJECT_NAME "HUD Tenant"    setenv PROJECT_TEMP_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build"    setenv PROJECT_TEMP_ROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv PROVISIONING_PROFILE_REQUIRED YES    setenv PUBLIC_HEADERS_FOLDER_PATH "HUD HUD Tenant.app/Headers"    setenv RECURSIVE_SEARCH_PATHS_FOLLOW_SYMLINKS YES    setenv REMOVE_CVS_FROM_RESOURCES YES    setenv REMOVE_GIT_FROM_RESOURCES YES    setenv REMOVE_HG_FROM_RESOURCES YES    setenv REMOVE_SVN_FROM_RESOURCES YES    setenv RESOURCE_RULES_REQUIRED YES    setenv REZ_COLLECTOR_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/ResourceManagerResources"    setenv REZ_OBJECTS_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/ResourceManagerResources/Objects"    setenv REZ_SEARCH_PATHS "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device "    setenv SCAN_ALL_SOURCE_FILES_FOR_INCLUDES NO    setenv SCRIPTS_FOLDER_PATH "HUD HUD Tenant.app/Scripts"    setenv SCRIPT_INPUT_FILE_COUNT 0    setenv SCRIPT_OUTPUT_FILE_COUNT 0    setenv SDKROOT /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_DIR /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk    setenv SDK_NAME iphoneos7.0    setenv SDK_PRODUCT_BUILD_VERSION 11B508    setenv SED /usr/bin/sed    setenv SEPARATE_STRIP NO    setenv SEPARATE_SYMBOL_EDIT NO    setenv SET_DIR_MODE_OWNER_GROUP YES    setenv SET_FILE_MODE_OWNER_GROUP NO    setenv SHALLOW_BUNDLE YES    setenv SHARED_DERIVED_FILE_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/DerivedSources    setenv SHARED_FRAMEWORKS_FOLDER_PATH "HUD HUD Tenant.app/SharedFrameworks"    setenv SHARED_PRECOMPS_DIR /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders    setenv SHARED_SUPPORT_FOLDER_PATH "HUD HUD Tenant.app/SharedSupport"    setenv SKIP_INSTALL NO    setenv SOURCE_ROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv SRCROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv STRINGS_FILE_OUTPUT_ENCODING binary    setenv STRIP_INSTALLED_PRODUCT YES    setenv STRIP_STYLE all    setenv SUPPORTED_DEVICE_FAMILIES 1,2    setenv SUPPORTED_PLATFORMS "iphonesimulator iphoneos"    setenv SYMROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv SYSTEM_ADMIN_APPS_DIR /Applications/Utilities    setenv SYSTEM_APPS_DIR /Applications    setenv SYSTEM_CORE_SERVICES_DIR /System/Library/CoreServices    setenv SYSTEM_DEMOS_DIR /Applications/Extras    setenv SYSTEM_DEVELOPER_APPS_DIR /Applications/Xcode.app/Contents/Developer/Applications    setenv SYSTEM_DEVELOPER_BIN_DIR /Applications/Xcode.app/Contents/Developer/usr/bin    setenv SYSTEM_DEVELOPER_DEMOS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Utilities/Built Examples"    setenv SYSTEM_DEVELOPER_DIR /Applications/Xcode.app/Contents/Developer    setenv SYSTEM_DEVELOPER_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library"    setenv SYSTEM_DEVELOPER_GRAPHICS_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Graphics Tools"    setenv SYSTEM_DEVELOPER_JAVA_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Java Tools"    setenv SYSTEM_DEVELOPER_PERFORMANCE_TOOLS_DIR "/Applications/Xcode.app/Contents/Developer/Applications/Performance Tools"    setenv SYSTEM_DEVELOPER_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes"    setenv SYSTEM_DEVELOPER_TOOLS /Applications/Xcode.app/Contents/Developer/Tools    setenv SYSTEM_DEVELOPER_TOOLS_DOC_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/documentation/DeveloperTools"    setenv SYSTEM_DEVELOPER_TOOLS_RELEASENOTES_DIR "/Applications/Xcode.app/Contents/Developer/ADC Reference Library/releasenotes/DeveloperTools"    setenv SYSTEM_DEVELOPER_USR_DIR /Applications/Xcode.app/Contents/Developer/usr    setenv SYSTEM_DEVELOPER_UTILITIES_DIR /Applications/Xcode.app/Contents/Developer/Applications/Utilities    setenv SYSTEM_DOCUMENTATION_DIR /Library/Documentation    setenv SYSTEM_KEXT_INSTALL_PATH /System/Library/Extensions    setenv SYSTEM_LIBRARY_DIR /System/Library    setenv TARGETED_DEVICE_FAMILY 1,2    setenv TARGETNAME "HUD Tenant"    setenv TARGET_BUILD_DIR /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device    setenv TARGET_NAME "HUD Tenant"    setenv TARGET_TEMP_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build"    setenv TEMP_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build"    setenv TEMP_FILES_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build"    setenv TEMP_FILE_DIR "/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build"    setenv TEMP_ROOT /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build    setenv TOOLCHAINS com.apple.dt.toolchain.XcodeDefault    setenv UID 501    setenv UNLOCALIZED_RESOURCES_FOLDER_PATH "HUD HUD Tenant.app"    setenv UNSTRIPPED_PRODUCT NO    setenv USER edilio    setenv USER_APPS_DIR /Users/edilio/Applications    setenv USER_LIBRARY_DIR /Users/edilio/Library    setenv USE_DYNAMIC_NO_PIC YES    setenv USE_HEADERMAP YES    setenv USE_HEADER_SYMLINKS NO    setenv VALIDATE_PRODUCT NO    setenv VALID_ARCHS "armv7 armv7s"    setenv VERBOSE_PBXCP NO    setenv VERSIONPLIST_PATH "HUD HUD Tenant.app/version.plist"    setenv VERSION_INFO_BUILDER edilio    setenv VERSION_INFO_FILE "HUD HUD Tenant_vers.c"    setenv VERSION_INFO_STRING "\"@(#)PROGRAM:HUD HUD Tenant  PROJECT:HUD Tenant-\""    setenv WRAPPER_EXTENSION app    setenv WRAPPER_NAME "HUD HUD Tenant.app"    setenv WRAPPER_SUFFIX .app    setenv XCODE_APP_SUPPORT_DIR /Applications/Xcode.app/Contents/Developer/Library/Xcode    setenv XCODE_PRODUCT_BUILD_VERSION 5A3005    setenv XCODE_VERSION_ACTUAL 0502    setenv XCODE_VERSION_MAJOR 0500    setenv XCODE_VERSION_MINOR 0500    setenv XPCSERVICES_FOLDER_PATH "HUD HUD Tenant.app/XPCServices"    setenv YACC yacc    setenv arch armv7    setenv variant normal    /bin/sh -c \"/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/Script-304B58A110DAC018002A0835.sh\"36"C02DA949-A4FD-4D8E-A4A9-9ABF2A51DB75-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CProcessInfoPlistFile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Info.plist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/HUD\ Tenant-Info.plist
+s413092055.903155
+e413092055.915330
+r1
+xProcessInfoPlistFile
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/Info.plist
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/HUD Tenant-Info.plist
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection102"Process /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD Tenant/HUD Tenant-Info.plist100"ProcessInfoPlistFile build/device/HUD\ HUD\ Tenant.app/Info.plist HUD\ Tenant/HUD\ Tenant-Info.plistc747e7d7489fb841^9753ead7489fb841^---0#0#1#-19%DVTDocumentLocation2@114"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD%20Tenant/HUD%20Tenant-Info.plist0000000000000000^1278"ProcessInfoPlistFile build/device/HUD\ HUD\ Tenant.app/Info.plist HUD\ Tenant/HUD\ Tenant-Info.plist    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-infoPlistUtility /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/HUD\ Tenant/HUD\ Tenant-Info.plist -genpkginfo /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/ResourceRules.plist -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/Info.plist36"E61CBFF8-18F2-43C3-8715-8C246BC06DFE-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CProcessPCH /var/folders/t8/29jxjxvn2n71bm96t5yntgg00000gn/C/com.apple.DeveloperTools/5.0.2-5A3005/Xcode/SharedPrecompiledHeaders/HUD\ Tenant-Prefix-gnxfgauxmmdsyigmnfyouudnxcmh/HUD\ Tenant-Prefix.pch.pch HUD\ Tenant/HUD\ Tenant-Prefix.pch normal armv7 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent
+s413092061.400975
+e413092061.403897
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD Tenant.build/Debug-iphoneos/HUD Tenant.build/HUD HUD Tenant.xcent
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent224"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent5dc166dd489fb841^416667dd489fb841^---0#0#1#-19%DVTDocumentLocation2@161"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD%20Tenant.build/Debug-iphoneos/HUD%20Tenant.build/HUD%20HUD%20Tenant.xcent0038f4d6ddffdf42^1188"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.0.sdk/Entitlements.plist -entitlements -format xml -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/HUD\ Tenant.build/Debug-iphoneos/HUD\ Tenant.build/HUD\ HUD\ Tenant.xcent36"0B8EA8FE-8F1D-4641-86E4-E6ADE01AC535-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CProcessProductPackaging /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision
+s413092061.350166
+e413092061.375513
+r1
+xProcessProductPackaging
+x/Users/edilio/Library/MobileDevice/Provisioning Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app/embedded.mobileprovision
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision193"ProcessProductPackaging /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision8db759dd489fb841^572260dd489fb841^---0#0#1#-19%DVTDocumentLocation2@138"file://localhost/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD%20HUD%20Tenant.app/embedded.mobileprovision0038f4d6ddffdf42^1100"ProcessProductPackaging /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    builtin-productPackagingUtility /Users/edilio/Library/MobileDevice/Provisioning\ Profiles/1646F235-360C-44B9-A3AD-E0FAA1F782C7.mobileprovision -o /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app/embedded.mobileprovision36"D1F9AB9F-D5B6-4374-A621-FEAC266C01C9-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
+CTouch /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app
+s413092061.384960
+e413092061.392695
+r1
+xTouch
+x/Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD HUD Tenant.app39"Touch build/device/HUD\ HUD\ Tenant.appbea362dd489fb841^0e8864dd489fb841^---0#0#1#--793"Touch build/device/HUD\ HUD\ Tenant.app    cd /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/Users/edilio/bin/Sencha/Cmd/4.0.2.67:/opt/local/bin:/opt/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/git/bin:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools:/Users/edilio/bin/android-sdk-macosx/sdk/platform-tools:/Users/edilio/bin/android-sdk-macosx/sdk/tools"    /usr/bin/touch -c /Library/WebServer/Documents/HUDTenant/phonegap/platforms/ios/build/device/HUD\ HUD\ Tenant.app36"51FF29C0-8D05-4F64-A084-6D4F47717DB4-
+b7EF51DDB-5AC6-44E4-ABA0-A3B5564AE46B
+
