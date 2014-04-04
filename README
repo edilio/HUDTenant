@@ -9,3 +9,5 @@ The idea is not to ask all the tedious questions a Housing Authority would do in
 We are also providing all Housing Authority information publicly available in HUD Website so you can call, email or browse their information if available.
 
 Additionally, we included the Fair Market Rent for 2014 so you can know the rent that HUD thinks is fair by state and county.
+
+The app uses Sencha Touch but also PhoneGap to do the native part so functionality like navigate is not going to work if you use Chrome or Safari.
